@@ -1,0 +1,362 @@
+body {
+	background-color: #f9f9f9;
+}
+.home-sec {
+	background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/home_back.png")no-repeat;
+	background:-o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/home_back.png")no-repeat;
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/home_back.png")no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+.navbar-dark .navbar-toggler {
+	border-color: transparent;
+}
+.navbar button span {
+	margin: 0 auto;
+}
+nav ul li a {
+	color: #FFF!important;
+	font-size: 18px;
+}
+.contact-page ul li a {
+	color: #000!important;
+}
+nav ul li {
+	position: relative;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+nav ul li:after {
+	content: '\\';
+	position: absolute;
+	top: 15%;
+	right: 0;
+	font-size: 18px;
+	color:#fff;
+}
+nav ul li:last-child:after {
+	content: "";
+}
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+/* ================================================== */
+/* Reuse content */
+/* ================================================== */
+span {
+	display: block;
+	width: 40px;
+	margin: 25px 0px;
+}
+h2 {
+	font-size: 53px;
+	font-weight: bold;
+}
+/* ================================================== */
+/* Banner content */
+/* ================================================== */
+.banner-content {
+	color: #FFF;
+	margin-top: 100px;
+}
+.banner-h {
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	font-size: 60px;
+	text-align: center;	
+}
+.banner-p {
+	font-size: 17px;
+}
+.banner-content span {
+	border-bottom: 1px solid white;
+	
+}
+.banner-content .btn {
+	border: 2px solid #fff;
+	color: #FFF;
+	-webkit-border-radius: 0px;
+	        border-radius: 0px;
+	padding: 8px 60px;
+}
+
+/* ================================================== */
+/* Welcome section start */
+/* ================================================== */
+.second-section {
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.welcome {
+}
+
+.welcome span {
+	border-bottom: 1px solid black;
+}
+.welcome p {
+	
+}
+.car {
+	position: absolute;
+	left: -50%;
+	right: -40%;
+	z-index: 5;
+}
+.cstm-item {
+	color: #FFF;
+}
+/* ================================================== */
+/* Title section */
+/* ================================================== */
+.title-sec {
+	background-color: #28282e;
+	color: #FFF;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+.title span {
+	border-bottom: 1px solid white;
+}
+.title p {
+	font-size: 18px;
+}
+.title-car {
+	position: absolute;
+	left: -40%;
+	top: 32%;
+}
+.title .btn {
+	border: 2px solid #fff;
+	color: #FFF;
+	-webkit-border-radius: 0px;
+	        border-radius: 0px;
+	padding: 8px 60px;
+}
+
+/* ================================================== */
+/* Footer section */
+/* ================================================== */
+footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #ef4035;
+	color: #fff;
+}
+
+
+/* ================================================== */
+/* Contact section css */
+/* ================================================== */
+.contact-page {
+	border-bottom: 5px solid #e4e4e4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.con-ul ul li a {
+	color: #005e7e;
+}
+.con-ul ul li:after {
+	content: '\\';
+	position: absolute;
+	top: 15%;
+	right: 0;
+	font-size: 18px;
+	color: #005e7e;
+}
+.con-ul ul li:last-child:after {
+	content: "";
+}
+.con-ul ul li:last-child {
+	padding-right: 0;
+}
+.con-content {
+	background-color: #EE4A3F;
+	color: #FFF;
+	padding-top: 50px;
+}
+.con-content h2 {
+	margin-bottom: 30px;
+}
+.con-car {
+	width: 750px;
+	margin-bottom: 30px;
+}
+.side-img {
+	width: 370px;
+	margin-top: 40px;
+}
+.cstm-textbox {
+	width: 90%;
+	background: #ff6258;
+	border: none;
+}
+.form-button {
+	font-family: 'Dancing Script', cursive;
+	font-size: 36px;
+	color: #FFF;
+}
+.cstm-form {
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.con-hfive {
+	font-size: 16px;
+}
+
+/* ================================================== */
+/* About us  */
+/* ================================================== */
+.about-content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.about-content p {
+	color: #6b6b6b;
+}
+
+.ab-car {
+	position: absolute;
+	left: -5%;
+}
+.ab-side p {
+	position: absolute;
+	top: 55%;
+}
+/* ================================================== */
+/* Media Query */
+/* ================================================== */
+@media (min-width:0) and (max-width:575px){
+
+	nav ul li:after{
+        display: none;
+    }
+    .banner-h {
+    	font-size: 40px;
+    }
+    p {
+    	font-size: 14px;
+    	text-align: center;
+    }
+	span {
+		margin: 50px auto;
+	} 
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+	.car {
+		position: absolute;
+		left: 43%;
+		right: 6%;
+	}
+	.title-car {
+		position: static;
+		margin-top: 40px;
+	}
+	footer {
+		font-size: 14px;
+	}
+	/* ================================================== */
+	/* Contact section */
+	/* ================================================== */
+	.side-img {
+		display: block;
+		margin: 0 auto;
+	}
+	/* ================================================== */
+	/* About section */
+	/* ================================================== */
+	.ab-car {
+		position: static;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.ab-side p {
+		position: static;
+	}
+}
+
+/* ================================================== */
+/* Media Query start */
+/* ================================================== */
+
+@media (min-width:575.1px) and (max-width:767px){
+
+	nav ul li:after{
+        display: none;
+    }
+    .banner-h {
+    	font-size: 40px;
+    }
+    p {
+    	font-size: 14px;
+    	text-align: center;
+    }
+	span {
+		margin: 50px auto;
+	} 
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+	.car {
+		position: static;
+	}
+	.title-car {
+		position: static;
+		margin-top: 40px;
+	}
+	footer {
+		font-size: 14px;
+	}
+	/* ================================================== */
+	/* About section */
+	/* ================================================== */
+	.ab-car {
+		position: static;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.ab-side p {
+		position: static;
+	}
+
+
+}
+@media (min-width:768px) and (max-width:991px){
+	.car {
+		position: absolute;
+		left: -74%;
+		right: -42%;
+		z-index: 5;
+		top: 58%;
+	}
+	/* ================================================== */
+	/* about section */
+	/* ================================================== */
+	.ab-side p {
+		top: 30%;
+	}
+	
+}
